@@ -47,8 +47,8 @@ Application Load Balancer distributes traffic to containers
 ## How to run this locally
 
 ```bash
-git clone https://github.com/<your-username>/task-manager-aws-devops.git
-cd task-manager-aws-devops
+git clone https://github.com/<your-username>/cloud-task-manager.git
+cd cloud-task-manager
 docker build -t task-manager .
 docker run -d -p 5000:5000 --name taskapp task-manager
 ```
